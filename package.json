@@ -1,11 +1,9 @@
 {
-  "homepage": "https://54d4.github.io/To-Do-App/",
   "name": "to-do-app",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
